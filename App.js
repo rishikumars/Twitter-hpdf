@@ -8,7 +8,7 @@ class Search extends React.Component{
 				<Header searchBar  style={{marginTop:25,paddingTop:10,paddingBottom:10,backgroundColor:'white'}}>
 					<Item>
 						<Button  transparent>
-						<Icon name="md-arrow-back" style={{color:'#4885ed'}}  />
+						<Icon name="md-arrow-back" style={{color:'#02a8ef'}}  />
 						</Button>
 						<Input placeholder="Search Twitter"  />
 					</Item>
@@ -65,19 +65,19 @@ class Timeline extends Component{
 						<CardItem>
 							<Body style={{flexDirection:'row'}}>
 								<Button transparent style={{paddingLeft:15}}>
-								<Icon name="text" />
-								<Text>52</Text>
+								<Icon name="text" style={{color:'#ccc'}} />
+								<Text style={{color:'#ccc'}}>52</Text>
 								</Button>
 								<Button transparent style={{paddingLeft:20}}>
-								<Icon active name="git-compare" />
-								<Text>35</Text>
+								<Icon active name="git-compare" style={{color:'#ccc'}} />
+								<Text style={{color:'#ccc'}}>35</Text>
 								</Button>
 								<Button transparent style={{paddingLeft:20}}>
-								<Icon  name="ios-heart-outline" />
-								<Text>400 </Text>
+								<Icon  name="ios-heart-outline" style={{color:'#ccc'}}/>
+								<Text style={{color:'#ccc'}}>400 </Text>
 								</Button>
 								<Button transparent style={{paddingLeft:20}}>
-								<Icon  name="ios-mail-outline" />
+								<Icon  name="ios-mail-outline" style={{color:'#ccc'}} />
 								</Button>
 							</Body>
 						</CardItem>
@@ -102,19 +102,19 @@ class Timeline extends Component{
 						<CardItem>
 							<Body style={{flexDirection:'row'}}>
 								<Button transparent style={{paddingLeft:15}}>
-								<Icon name="text" />
-								<Text>12</Text>
+								<Icon name="text" style={{color:'#ccc'}}/>
+								<Text style={{color:'#ccc'}}>12</Text>
 								</Button>
 								<Button transparent style={{paddingLeft:20}}>
-								<Icon active name="git-compare" />
-								<Text>20</Text>
+								<Icon active name="git-compare" style={{color:'#ccc'}} />
+								<Text style={{color:'#ccc'}}>20</Text>
 								</Button>
 								<Button transparent style={{paddingLeft:20}}>
-								<Icon  name="ios-heart-outline" />
-								<Text>65 </Text>
+								<Icon  name="ios-heart-outline" style={{color:'#ccc'}} />
+								<Text style={{color:'#ccc'}}>65 </Text>
 								</Button>
 								<Button transparent style={{paddingLeft:20}}>
-								<Icon  name="ios-mail-outline" />
+								<Icon  name="ios-mail-outline" style={{color:'#ccc'}} />
 								</Button>
 							</Body>
 						</CardItem>
@@ -173,7 +173,6 @@ class SideBar extends Component{
 							</ListItem>
 							<ListItem style={{borderColor:'white'}}>
 							</ListItem>
-							
 							</List>
 						</CardItem>
 						<CardItem style={{elevation:4}}>
@@ -193,7 +192,7 @@ class SideBar extends Component{
 		);
   }
 }
-export default class TabsAdvancedExample extends Component {
+export default class HomeScreen extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -219,7 +218,7 @@ export default class TabsAdvancedExample extends Component {
 					marginTop:25,
 					backgroundColor:'white',
 					flexDirection:'row'
-					   }} hasTabs>
+					   }} >
 				<Left>
 				<Button transparent onPress={() => this.openDrawer()}>
 					<Thumbnail small source={{uri: 'http://vignette3.wikia.nocookie.net/voice-actors-from-the-world/images/3/37/Zeno-Sama.png/revision/latest?cb=20160514013139'}}  />
